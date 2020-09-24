@@ -22,6 +22,60 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+            <p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+<p> Amazon clone</p>
+
           </Route>
         </Switch>
         </Router>

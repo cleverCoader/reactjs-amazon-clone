@@ -4,6 +4,9 @@
     /* background-color:rgb(32, 156, 125); */
     background-color: #131921;
     /* background-color: rgb(73, 143, 120); */
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .headerLeftDropdown{
