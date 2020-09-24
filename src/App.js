@@ -7,6 +7,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Home from './Home';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/checkout">
+            <Header />
             <h1> checkout page</h1>
           </Route>
           <Route path="/login">
@@ -22,6 +24,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
+            <Home />
           </Route>
         </Switch>
         </Router>
