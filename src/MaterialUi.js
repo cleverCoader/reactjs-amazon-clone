@@ -19,6 +19,31 @@ import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
         "name": "amazon-bg",
         "imgUrl": "https://wallpapercave.com/wp/wp2957449.jpg"
     },
+    {
+        "name": "smart-Tv",
+        "imgUrl": "https://wallpapercave.com/wp/wp7519611.jpg"
+    },
+    {
+        "name": "smart-Tv",
+        "imgUrl": "https://wallpapercave.com/wp/wp7519751.jpg"
+    },
+    {
+        "name": "amazon-bg",
+        "imgUrl": ""
+    },
+    {
+        "name": "amazon-bg",
+        "imgUrl": ""
+    },
+    {
+        "name": "amazon-bg",
+        "imgUrl": ""
+    },
+    {
+        "name": "amazon-bg",
+        "imgUrl": ""
+    },
+
 
 
 ]
