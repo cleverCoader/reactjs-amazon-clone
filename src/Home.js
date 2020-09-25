@@ -1,90 +1,16 @@
 import React from 'react';
 import './Home.css';
 import Product from './Product';
+import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
     return (
-        <div className="home">
-            <img className="home_image" src="https://wallpapercave.com/wp/wp7513911.jpg" alt="" />
-
-            <div className="home__row">
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519751.jpg"
-                />
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519611.jpg"
-                />
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519749.jpg"
-                />
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519749.jpg"
-                />
+        <div className="home ">
+            <div className="home_baground">
+                <img className="home_image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/GW_Hero/Main_Desktop_1500x600_DS._CB404300086_.jpg"
+                    height="600px" width="1500px"
+                    alt="" />
             </div>
-
-            <div className="home__row">
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519751.jpg"
-                />
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519746.jpg"
-                />
-                
-            </div>
-
-            <div className="home__row">
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519751.jpg"
-                />        
-            </div>
-
-            <div className="home__row">
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519751.jpg"
-                />
-                <Product
-                id="17"
-                title="Top Smart TV's for you"
-                price={18500}
-                rating={4.9}
-                image="https://wallpapercave.com/wp/wp7519611.jpg"
-                />
-                
-            </div>
-
-
         </div>
     )
 }

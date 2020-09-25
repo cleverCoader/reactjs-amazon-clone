@@ -2,6 +2,12 @@ import DehazeSharpIcon from '@material-ui/icons/DehazeSharp';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
+
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+
+
+
+
 [
     {
         "name": "amazon-logo-white",
@@ -47,3 +53,49 @@ import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 
 
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className="home__row">
+                <Product
+                id="17"
+                title="Top Smart TV's for you"
+                price={18500}
+                rating={4.9}
+                image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/379x304_Desktop_Card_BE_01._SY304_CB404301999_.jpg"
+                />
+                <Product
+                id="17"
+                title="Top Smart TV's for you"
+                price={18500}
+                rating={4.9}
+                image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/02_379x304_Desktop_Card_SP._SY304_CB404302689_.jpg"
+                />
+                <Product
+                id="17"
+                title="Top Smart TV's for you"
+                price={18500}
+                rating={4.9}
+                image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/06_379x304_Desktop_Card_GE._SY304_CB404302721_.jpg"
+                />
+                <Product
+                id="17"
+                title="Top Smart TV's for you"
+                price={18500}
+                rating={4.9}
+                image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/05_379X304_Desktop_Card_SH._SY304_CB404302803_.jpg"
+                />
+                
+            </div> */}
