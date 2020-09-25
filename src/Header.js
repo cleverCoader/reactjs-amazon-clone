@@ -19,25 +19,25 @@ function Header() {
                 <SearchIcon className="header__searchIcon" />
             </div>
             <div className="header__nav">
-                <Link to="/login" className="header_link" >
+                <Link to="/login" className="header_link"  >
                     <div className="header__option">
                         <span className="headerOptionOne"> Hello <span className="myName">Sammed</span></span>
                         <span className="headerOptionTwo">Sign In</span>
                     </div>
                 </Link>
-                <Link to="/returns" className="header_link" >
+                <Link to="/returns" className="header_link"  >
                     <div className="header__option">
                         <span className="headerOptionOne"> Returns</span>
                         <span className="headerOptionTwo">& Orders</span>
                     </div>
                 </Link>
-                <Link to="/amazonPrime" className="header_link" >
+                <Link to="/amazonPrime" className="header_link"  >
                     <div className="header__option">
                         <span className="headerOptionOne"> Try</span>
                         <span className="headerOptionTwo">Prime</span>
                     </div>
                 </Link>
-                <Link to="/checkout"className="header_link" >
+                <Link to="/checkout"className="header_link"  >
                     <div className="header_optionBasket">
                         <ShoppingCartOutlinedIcon />
                         <span className="headerOptionTwo header_basketCount">0</span>

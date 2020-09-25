@@ -39,7 +39,7 @@
 
 .header__nav{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .header_link{

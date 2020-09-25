@@ -8,47 +8,70 @@ import ComputerOutlinedIcon from '@material-ui/icons/ComputerOutlined';
 function Header2() {
     return (
         <nav className="header2">
-            <div className="header2__left">
-                <LocationOnOutlinedIcon style={{fontSize:"xx-large"}} className="header2Location" />
-                <div className="header2_option header2_info">
-                    <span className="header2_OptionOne"> Hello </span>
-                    <span className="header2_OptionTwo">Select Your Location</span>
-                </div>
-            </div>
-            <div className="header2__middle">
-                <ul className="header2_option header2_listItems" >
-                    <li>Mobiles</li>
-                    <li>Best sellers </li>
-                    <li> Today's Deals </li>
-                    <li>Computers </li>
-                    <li> Books</li>
-                    <li>New Releases </li>
-                    <li> Gift Ideas</li>
-                    <li>customer servises </li>
-                    <li> Sell</li>
-                    <li>Amazon pay </li>
-                    <li> Amazon Basics</li>
-                    <li>Baby </li>
-                    <li>coupens </li>
-                </ul>
+            <div className="nav_left">
+            <LocationOnOutlinedIcon style={{fontSize:"xx-large"}} className="header2Location" />
+                <Link to="/current-location" className="header_link1"  >
+                    <div className="header__option">
+                        <span className="headerOptionOne"> Hello</span>
+                        <span className="headerOptionTwo">Select Your Address</span>
+                    </div>
+                </Link>    
             </div>
 
-            <div className="header2__right">
-                <ComputerOutlinedIcon style={{fontSize:"xx-large"}} className="header2Location" />
-                <div className="header2_option header2_info">
-                    <span className="header2_OptionOne"> Unlimited streaming of </span>
-                    <span className="header2_OptionTwo">Movies and TV shows</span>
-                </div>
-
+            <div className="nav_middle">
+                <Link to="/returns" className="header_link1"  >
+                    <span> Mobiles</span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>Best sellers </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span> Today's Deals</span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>Computers </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span> Books</span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span> New Releases</span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span> Gift Ideas</span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>customer servises </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>Sell </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>Amazon pay </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>Amazon Basics </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>Baby </span>
+                </Link>
+                <Link to="/returns" className="header_link1"  >
+                    <span>coupens </span>
+                </Link>
             </div>
-
-            <div className="header2__prime">
-            <Link to="/primevideo">
-                <img className="header2__logo" src="http://www.pngmart.com/files/8/Amazon-Prime-Transparent-PNG.png" alt="" />
-            </Link>
+            <div className="header_right">
+            <ComputerOutlinedIcon style={{fontSize:"xx-large"}} className="header2Location" />
+            <Link to="/amazonPrime" className="header_link1 header_right"  >
+                    <div className="header__option">
+                        <span className="header2_OptionOne"> Unlimited streaming of </span>
+                        <span className="header2_OptionTwo">Movies and TV shows</span>
+                    </div>
+                </Link>
             </div>
+           
         </nav>
     )
 }
 
 export default Header2;
+          

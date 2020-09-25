@@ -16,8 +16,8 @@
 .home_image{
  width: 100%;
  /* height: 70vh; */
- /* mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); */
- /* z-index: -1; */
- /* margin-bottom: -315px; */
+ mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+ z-index: -1;
+ margin-bottom: -315px;
 }
 
